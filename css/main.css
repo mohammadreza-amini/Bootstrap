@@ -1,58 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
-:root{
-  --mainBlue:#40ACF1;
-  --transparentBlue:rgba(64, 172, 241,0.7);
-  --mainWhite:#FFFFFF;
-  --mainBlack:#292F36;
-  --mainGrey:rgb(216, 214, 214);
-  --mainYellow:#e3b505;
+:root {
+  --mainBlue: #40acf1;
+  --transparentBlue: rgba(64, 172, 241, 0.7);
+  --mainWhite: #ffffff;
+  --mainBlack: #292f36;
+  --mainGrey: rgb(216, 214, 214);
+  --mainYellow: #e3b505;
 }
 
-
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
 
-
 /* navbar */
 
-.nav{
-    background: var(--mainWhite);
+.nav {
+  background: var(--mainWhite);
 }
 
-.navbar-brand:hover{
-    color: var(--mainBlue);
+.navbar-brand img {
+  width: 40px;
 }
 
-.navbar-icon{
-    font-size: 2rem;
-    color: var(--mainBlue);
+.navbar-icon {
+  font-size: 2rem;
+  color: var(--mainBlue);
 }
 
-.navbar-toggler{
-    outline-color: var(--mainBlue)  !important;
+.navbar-toggler {
+  outline-color: var(--mainBlue) !important;
 }
 
-.nav-link{
-    color: var(--mainBlack);
-    text-transform: capitalize;
+.nav-link {
+  font-size: 1rem;
+  color: var(--mainBlack);
+  text-transform: capitalize;
 }
 
-.nav-link:hover{
-    color: var(--mainBlue);
+.nav-link:hover {
+  color: var(--mainBlue);
+  transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
 }
 
-.nav-icon{
-    font-size: 1.25rem;
-    color: var(--mainBlue);
-    text-decoration: none;
-    transition-property: color;
-    transition-duration: 500ms;
-    transition-timing-function: linear;
+.nav-icon {
+  font-size: 1.25rem;
+  color: var(--mainBlue);
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
 }
-.nav-icon:hover{
-    color: var(--mainBlack);
+.nav-icon:hover {
+  color: var(--mainBlack);
 }
