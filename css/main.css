@@ -15,6 +15,22 @@ body {
   background: var(--mainWhite);
 }
 
+/* preloader */
+
+.preloader{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--mainWhite);
+  z-index: 999 !important;
+}
+
+.hidePreloader{
+  display: none !important;
+}
+
 /* sectiom title */
 
 .section-title-spacial{
