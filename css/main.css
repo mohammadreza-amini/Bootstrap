@@ -15,6 +15,15 @@ body {
   background: var(--mainWhite);
 }
 
+/* sectiom title */
+
+.section-title-spacial{
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: .5rem 2rem;
+  clip-path: polygon(10% 0,100% 0,90% 100%,0 100%);
+}
+
 /* navbar */
 
 .nav {
@@ -92,7 +101,7 @@ body {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-  }
+}
   50% {
     transform: scale(1.2) translateX(-5%);
     -webkit-transform: scale(1.2) translateX(-5%);
