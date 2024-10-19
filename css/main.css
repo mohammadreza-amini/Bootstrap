@@ -184,3 +184,38 @@ body {
   background: var(--mainBlue);
   margin: 1rem auto;
 }
+
+/* inventory */
+
+.inventory{
+  background: var(--mainGrey);
+}
+
+.car-card{
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.car-img{
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.car-value{
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(7% 0,93% 0,100% 100%,0 100%);
+  transition: all .4s linear;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  cursor: pointer;
+}
+
+.car-value:hover{
+  clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
+}
