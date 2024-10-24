@@ -470,5 +470,27 @@ body {
   width: 100%;
   height: 100%;
   background: var(--transparentBlue);
+  opacity: .7;
   z-index: -2;
+}
+
+.service{
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+.service:hover{
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  padding: 2.2rem !important;
+}
+
+.service-icon{
+  font-size: 4rem;
+  color: var(--mainYellow);
 }
