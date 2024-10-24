@@ -519,3 +519,24 @@ body {
 .customer-qute{
   max-width: 90%;
 }
+
+/* footer */
+
+.footer{
+  background: var(--mainBlack);
+}
+
+.footer-icon{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--mainYellow);
+  transition: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -ms-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+}
+
+.footer-icon:hover{
+  color: var(--mainBlue);
+}
